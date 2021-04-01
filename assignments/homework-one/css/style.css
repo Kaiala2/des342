@@ -1,0 +1,54 @@
+/* Styles for your homework one assignment */
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+.header{
+    font-family: monospace;
+    text-align: center;
+    color: red;
+}
+.child{
+    display: flex;
+    justify-content: center;
+    padding-left: 30%;
+    width: 80%;
+}
+.next{
+    width: 10%;
+    float: right;
+    padding: 30px;
+    transform: scaleX(-1);
+    
+   
+}
+.back{
+    width: 10%;
+    float: left;
+    padding: 30px;    
+}
+.child2{
+    display: flex;
+    justify-content: center;
+    padding-left: 18%;
+    width: 100%;
+}
+.ukulele{
+    background-color: #67839200;
+    position: absolute;
+    width: 15%;
+      top: -270px;
+      left: 850px;
+}
+.trombone{
+    background-color: #67839200;
+    position: absolute;
+    width: 15%;
+      top: -270px;
+      left: 550px;
+      transform: scaleX(-1);
+      transform: rotate(205deg);
+}
