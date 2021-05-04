@@ -24,6 +24,57 @@
     text-align: center;
 }
 
+.part1{
+    position: relative;
+    top: 500pt;
+    left: 100pt;
+    width: 600pt;
+}
+.part2{
+    position: absolute;
+    top: 1300pt;
+    left: 850pt;
+    width: 300pt;
+}
+.part3{
+    position: absolute;
+    top: 1700pt;
+    left: 300pt;
+    width: 600pt;
+
+}
+.part4{
+    position: absolute;
+    top: 2200pt;
+    left: 820pt;
+    width: 300pt;
+   
+}
+.part5{
+    position: relative;
+    top: 2300pt; 
+    left: 50pt;
+    width: 600pt;
+}
+.part6{
+    position: absolute;
+    top: 3340pt;
+    left: 200pt;
+    width: 600pt;
+    
+}
+.part7{
+    position: absolute;
+    top: 3900pt; 
+    left: 400pt;
+    width: 600pt; 
+}
+.part8{
+    position: absolute;
+    top: 5350pt;
+    left: 300pt;
+    width: 600pt;
+}
 .images{
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -54,15 +105,12 @@
     top: 100pt;
     left: 250pt;
 }
+
 .flower5{
     position: relative;
-    margin: 0; 
-    margin-left: 100pt;
-    padding: 0;
     width: 400px;
-    height: 350px;
-    left: 300pt;
-    top: -80pt;
+    left: 400pt;
+    top: -150pt;
 }
 .smallflower1{
     position: relative; 
@@ -70,18 +118,18 @@
     width: 300px;
     height: 100px;
     left: 800pt;
-    top: -1600pt;
+    top: -1700pt;
 }
 .flipflower1{
     position: absolute;
-    top: 1000pt;
+    top: 1600pt;
     left: 750pt;
     width: 400px;
     height: 300px;
 }
 .flipflower8{
     position: absolute;
-    top: 580pt;
+    top: 650pt;
     left: 300pt;
     width: 200px;
     height: 300px;
@@ -151,7 +199,7 @@
   }
 .vase{
     position: absolute;
-    top: 2900pt;
+    top: 3000pt;
     left: 400pt;
     width: 600pt;
     
@@ -260,7 +308,7 @@
     position: absolute;
     top: 3000pt;
     left: 100pt;
-    width: 200px;
+    width: 300px;
     height: 200px;
 }
 .mflipflower77{
@@ -311,7 +359,7 @@
   }
 .sadvase{
     position: absolute;
-    top: 4800pt;
+    top: 4900pt;
     left: 400pt;
     width: 600pt;
     
