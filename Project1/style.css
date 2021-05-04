@@ -75,57 +75,76 @@
     left: 300pt;
     width: 600pt;
 }
+  
+@keyframes rotation {
+    /*from {
+      transform: rotate(0deg); no needed to define this
+    }*/
+    to {
+      transform: rotate(25deg);
+    }
+  }
 .images{
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr 20fr;
     height: 1800pt;
+    
 }
 .flower1{
     position: absolute;
     margin: auto;
     width: 400px;
     height: 350px;
+    animation: rotation 2s infinite linear alternate;
    
 }
 .flower2{
     position: relative;
     left: 350pt;
-    width: 400px;
-    height: 350px;
+    width: 300px;
+    height: 150px;
+    animation: rotation 5s infinite linear;
 }
 .flower3{
     position: relative;
     margin: 80pt; 
     width: 400px;
     height: 350px;
+    animation: rotation 1s infinite linear alternate;
 }
 .flower4{
     position: relative;
     top: 100pt;
     left: 250pt;
+    height: 200pt;
+    animation: rotation 5s infinite linear alternate;
 }
 
 .flower5{
     position: relative;
     width: 400px;
+    height: 300pt;
     left: 400pt;
     top: -150pt;
+    animation: rotation 3s infinite linear alternate;
 }
 .smallflower1{
     position: relative; 
     margin-left: 100pt;
     width: 300px;
-    height: 100px;
+    height: 80px;
     left: 800pt;
     top: -1700pt;
+    animation: rotation 5s infinite linear alternate;
 }
 .flipflower1{
     position: absolute;
-    top: 1600pt;
+    top: 1000pt;
     left: 750pt;
     width: 400px;
     height: 300px;
+    animation: rotation 5s infinite linear alternate;
 }
 .flipflower8{
     position: absolute;
@@ -133,6 +152,8 @@
     left: 300pt;
     width: 200px;
     height: 300px;
+    animation: rotation 5s infinite linear alternate;
+    
 }
 .flipflower7{
     position: absolute;
@@ -140,6 +161,8 @@
     left: 100pt;
     width: 200px;
     height: 200px;
+    animation: rotation 2s infinite linear alternate;
+    
 }
 .flipflower3{
     position: absolute;
@@ -147,6 +170,8 @@
     left: 100pt;
     width: 500px;
     height: 200px;
+    animation: rotation 5s infinite linear alternate;
+    
 }
 .smallflower5{
     position: absolute;
@@ -154,6 +179,8 @@
     left: 600pt;
     width: 200px;
     height: 200px;
+    animation: rotation 2s infinite linear alternate;
+    
 }
 .flipflower4{
     position: absolute;
@@ -161,6 +188,7 @@
     left: 700pt;
     width: 500px;
     height: 200px;
+    animation: rotation 5s infinite linear alternate;
 }
 .smallflower4{
     position: absolute;
@@ -168,6 +196,7 @@
     left: 150pt;
     width: 200px;
     height: 200px;
+    animation: rotation 3s infinite linear alternate;
 }
 #happyflowers {
     position: sticky;
@@ -209,13 +238,14 @@
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr 20fr;
     height: 1800pt;
+    
 }
 .mflower1{
     position: absolute;
     top: 2200pt;
     width: 400px;
     height: 350px;
-   
+    animation: rotation 2s infinite linear alternate;
 }
 .mflower2{
     position: relative;
@@ -223,6 +253,7 @@
     left: 120pt;
     width: 200px;
     height: 350px;
+    animation: rotation 1s infinite linear alternate;
 }
 .mflower3{
     position: relative;
@@ -230,12 +261,15 @@
     right: 200pt;
     width: 400px;
     height: 350px;
+    animation: rotation 5s infinite linear alternate;
 }
 .mflower4{
     position: relative;
     top: -500pt;
     left: 850pt;
     width: 250pt;
+    height: 200pt;
+    animation: rotation 2s infinite linear alternate;
 }
 .mflower5{
     position: relative;
@@ -246,6 +280,7 @@
     height: 350px;
     left: 300pt;
     top: -80pt;
+    animation: rotation 5s infinite linear alternate;
 }
 .msmallflower1{
     position: relative; 
@@ -254,6 +289,7 @@
     height: 100px;
     left: 800pt;
     top: -8800pt;
+    animation: rotation 3s infinite linear alternate;
 }
 .mflipflower1{
     position: absolute;
@@ -261,6 +297,7 @@
     left: 750pt;
     width: 400px;
     height: 300px;
+    animation: rotation 2s infinite linear alternate;
 }
 .mflipflower8{
     position: absolute;
@@ -268,6 +305,7 @@
     left: 300pt;
     width: 200px;
     height: 300px;
+    animation: rotation 2s infinite linear alternate;
 }
 .mflipflower7{
     position: absolute;
@@ -275,6 +313,7 @@
     left: 100pt;
     width: 200px;
     height: 200px;
+    animation: rotation 2s infinite linear alternate;
 }
 .mflipflower3{
     position: absolute;
@@ -282,6 +321,7 @@
     left: 100pt;
     width: 500px;
     height: 200px;
+    animation: rotation 5s infinite linear alternate;
 }
 .msmallflower5{
     position: absolute;
@@ -289,6 +329,7 @@
     left: 600pt;
     width: 200px;
     height: 200px;
+    animation: rotation 2s infinite linear alternate;
 }
 .mflipflower4{
     position: absolute;
@@ -296,6 +337,7 @@
     left: 700pt;
     width: 500px;
     height: 200px;
+    animation: rotation 3s infinite linear alternate;
 }
 .msmallflower4{
     position: absolute;
@@ -303,6 +345,7 @@
     left: 150pt;
     width: 200px;
     height: 200px;
+    animation: rotation 1s infinite linear alternate;
 }
 .msmallflower7{
     position: absolute;
@@ -310,6 +353,7 @@
     left: 100pt;
     width: 300px;
     height: 200px;
+    animation: rotation 4s infinite linear alternate;
 }
 .mflipflower77{
     position: relative;
@@ -317,9 +361,10 @@
     margin-left: 100pt;
     padding: 0;
     width: 400px;
-    height: 350px;
-    left: 200pt;
+    height: 250px;
+    left: 150pt;
     top: -750pt;
+    animation: rotation 2s infinite linear alternate;
 }
 .mflower33{
     position: relative;
@@ -327,6 +372,7 @@
     left: 700pt;
     width: 400px;
     height: 350px;
+    animation: rotation 3s infinite linear alternate;
 }
 
 #sadflowers {
