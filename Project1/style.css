@@ -362,11 +362,9 @@
     color: white;
     -webkit-text-stroke: 1px black;
     font-size: 200pt;
-    margin-top: 1200pt;
-    margin-bottom: 0;
+    margin-top: 1150pt;
+    margin-bottom: -350pt;
     padding-bottom: 0;
     text-align: center;
 }
-.fin{
-    padding: 0;
-}
+
