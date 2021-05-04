@@ -1,0 +1,372 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "ATApoc";
+    src: url("fonts/ATApoc-Dark.ttf");
+  }
+  body{
+    background-color: rgb(104, 186,112)
+  }
+.text {
+    font-family: ATApoc;
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+.title {
+    font-size: 200pt;
+    text-align: center;
+}
+
+.author {
+    font-size: 50pt;
+    text-align: center;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 20fr;
+    height: 1800pt;
+}
+.flower1{
+    position: absolute;
+    margin: auto;
+    width: 400px;
+    height: 350px;
+   
+}
+.flower2{
+    position: relative;
+    left: 350pt;
+    width: 400px;
+    height: 350px;
+}
+.flower3{
+    position: relative;
+    margin: 80pt; 
+    width: 400px;
+    height: 350px;
+}
+.flower4{
+    position: relative;
+    top: 100pt;
+    left: 250pt;
+}
+.flower5{
+    position: relative;
+    margin: 0; 
+    margin-left: 100pt;
+    padding: 0;
+    width: 400px;
+    height: 350px;
+    left: 300pt;
+    top: -80pt;
+}
+.smallflower1{
+    position: relative; 
+    margin-left: 100pt;
+    width: 300px;
+    height: 100px;
+    left: 800pt;
+    top: -1600pt;
+}
+.flipflower1{
+    position: absolute;
+    top: 1000pt;
+    left: 750pt;
+    width: 400px;
+    height: 300px;
+}
+.flipflower8{
+    position: absolute;
+    top: 580pt;
+    left: 300pt;
+    width: 200px;
+    height: 300px;
+}
+.flipflower7{
+    position: absolute;
+    top: 1100pt;
+    left: 100pt;
+    width: 200px;
+    height: 200px;
+}
+.flipflower3{
+    position: absolute;
+    top: 1300pt;
+    left: 100pt;
+    width: 500px;
+    height: 200px;
+}
+.smallflower5{
+    position: absolute;
+    top: 1300pt;
+    left: 600pt;
+    width: 200px;
+    height: 200px;
+}
+.flipflower4{
+    position: absolute;
+    top: 1500pt;
+    left: 700pt;
+    width: 500px;
+    height: 200px;
+}
+.smallflower4{
+    position: absolute;
+    top: 1800pt;
+    left: 150pt;
+    width: 200px;
+    height: 200px;
+}
+#happyflowers {
+    position: sticky;
+    position: -webkit-sticky;
+    width: 650px;
+    height: 100px;
+    top: 390px;
+    left: 300pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bunch,
+  #flowers {
+    width: 75%;
+    margin: auto;
+    margin-top: -50pt;
+  }
+  #flowers {
+    height: 1000px;
+  }
+  .bunch {
+    height: 100px;
+  }
+  @media (min-height: 268px) {
+    #flowers{
+      height: 900px;
+    }
+  }
+.vase{
+    position: absolute;
+    top: 2900pt;
+    left: 400pt;
+    width: 600pt;
+    
+}
+.moreflowers{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 20fr;
+    height: 1800pt;
+}
+.mflower1{
+    position: absolute;
+    top: 2200pt;
+    width: 400px;
+    height: 350px;
+   
+}
+.mflower2{
+    position: relative;
+    top: -120pt;
+    left: 120pt;
+    width: 200px;
+    height: 350px;
+}
+.mflower3{
+    position: relative;
+    top: 550pt; 
+    right: 200pt;
+    width: 400px;
+    height: 350px;
+}
+.mflower4{
+    position: relative;
+    top: -500pt;
+    left: 850pt;
+    width: 250pt;
+}
+.mflower5{
+    position: relative;
+    margin: 0; 
+    margin-left: 100pt;
+    padding: 0;
+    width: 400px;
+    height: 350px;
+    left: 300pt;
+    top: -80pt;
+}
+.msmallflower1{
+    position: relative; 
+    margin-left: 100pt;
+    width: 300px;
+    height: 100px;
+    left: 800pt;
+    top: -8800pt;
+}
+.mflipflower1{
+    position: absolute;
+    top: 1000pt;
+    left: 750pt;
+    width: 400px;
+    height: 300px;
+}
+.mflipflower8{
+    position: absolute;
+    top: 580pt;
+    left: 300pt;
+    width: 200px;
+    height: 300px;
+}
+.mflipflower7{
+    position: absolute;
+    top: 1100pt;
+    left: 100pt;
+    width: 200px;
+    height: 200px;
+}
+.mflipflower3{
+    position: absolute;
+    top: 1300pt;
+    left: 100pt;
+    width: 500px;
+    height: 200px;
+}
+.msmallflower5{
+    position: absolute;
+    top: 1300pt;
+    left: 600pt;
+    width: 200px;
+    height: 200px;
+}
+.mflipflower4{
+    position: absolute;
+    top: 1500pt;
+    left: 700pt;
+    width: 500px;
+    height: 200px;
+}
+.msmallflower4{
+    position: absolute;
+    top: 1800pt;
+    left: 150pt;
+    width: 200px;
+    height: 200px;
+}
+.msmallflower7{
+    position: absolute;
+    top: 3000pt;
+    left: 100pt;
+    width: 200px;
+    height: 200px;
+}
+.mflipflower77{
+    position: relative;
+    margin: 0; 
+    margin-left: 100pt;
+    padding: 0;
+    width: 400px;
+    height: 350px;
+    left: 200pt;
+    top: -750pt;
+}
+.mflower33{
+    position: relative;
+    top: -750pt; 
+    left: 700pt;
+    width: 400px;
+    height: 350px;
+}
+
+#sadflowers {
+    position: sticky;
+    position: -webkit-sticky;
+    width: 1000px;
+    height: 100px;
+    top: 290px;
+    left: 200pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sad,
+  #dead {
+    width: 75%;
+    margin: auto;
+    margin-top: -300pt;
+  }
+  #dead {
+    height: 1000px;
+  }
+  .sad {
+    height: 100px;
+  }
+  @media (min-height: 268px) {
+    #dead{
+      height: 900px;
+    }
+  }
+.sadvase{
+    position: absolute;
+    top: 4800pt;
+    left: 400pt;
+    width: 600pt;
+    
+}
+.deadflower1{
+    position: absolute;
+    top: 4000pt; 
+    left: 40pt;
+    width: 400px;
+    height: 350px; 
+}
+.deadflower2{
+    position: absolute;
+    top: 4300pt; 
+    left: 50pt;
+    width: 500px;
+    height: 350px; 
+}
+.deadflower3{
+    position: absolute;
+    top: 4900pt; 
+    left: 800pt;
+    width: 400px;
+    height: 350px; 
+}
+.deadflower4{
+    position: absolute;
+    top: 4200pt; 
+    left: 900pt;
+    width: 300px;
+    height: 350px; 
+}
+.deadflower5{
+    position: absolute;
+    top: 4900pt; 
+    left: 90pt;
+    width: 400px;
+    height: 350px; 
+}
+.emptyvase{
+    position: absolute;
+    top: 5500pt;
+    left: 400pt;
+    width: 600pt;
+}
+.end{
+    font-family: ATApoc;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    font-size: 200pt;
+    margin-top: 1200pt;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+}
+.fin{
+    padding: 0;
+}
