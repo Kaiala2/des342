@@ -1,14 +1,29 @@
 
 * {
     box-sizing: border-box;
+    background-color: #272727;
+    
+
 }
 
 body { 
     margin: 0;
+    background: url(/images/texture2.jpg);
+    background-size: cover;
 }
 
 /* Enter your Styles below! */
-
+.gazelle {
+    font-size: 100pt;
+    text-align: center;
+    padding-top: 350px;
+    color: white;
+}
+.sepatu {
+    font-size: 20pt;
+    text-align: center;
+    color: white;
+}
 
 
 
