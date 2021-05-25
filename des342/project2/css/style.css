@@ -96,18 +96,13 @@ navbar {
 }
 
 .pics {
-   
-    padding-right: 20pt;
+    width: 100%;
+    flex: 25%;
+  }
+.pics .shoes1 {
+    padding-left: 600px;
 }
 
-.shoes img {
-	-webkit-filter: grayscale(100%) !important;
-	filter: grayscale(100%) !important;
-}
-.shoes img:hover {
-	-webkit-filter: grayscale(0) !important;
-	filter: grayscale(0) !important;
-}
 /* Media Queries for you! */
 @media only screen and (min-width:768px) {
 
