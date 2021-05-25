@@ -6,8 +6,6 @@
 /* Enter your Styles below! */
 body {
     background-color: #272727;
-}
-body.cover {
     background: url(/des342/project2/images/texture1.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
@@ -57,9 +55,60 @@ body.cover {
     65%  { transform: translate(0, 15px); }
     to   { transform: translate(0, -0px); }
 
+navbar {
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border-style: solid;
+    border-width: thin; 
+    font-weight: lighter;
+    font-family: Supply, Helvetica;
+    font-style: normal;
+       
+    }
 
+.home h2{
+    font-size: 15pt;
+}
+    
+.home{
+     padding: 5px;
+    width: 160px;
+}
+    
+.shop h2 {
+    font-size: 15pt;
+}
+.shop{
+    padding: 5px;
+    width: 160px;
+}
+    
+.contact h2 {
+    font-size: 15pt;
+}
+    
+.contact{
+    padding: 5px;
+    width: 160px;
+}
+
+.pics {
+   
+    padding-right: 20pt;
+}
+
+.shoes img {
+	-webkit-filter: grayscale(100%) !important;
+	filter: grayscale(100%) !important;
+}
+.shoes img:hover {
+	-webkit-filter: grayscale(0) !important;
+	filter: grayscale(0) !important;
+}
 /* Media Queries for you! */
-
 @media only screen and (min-width:768px) {
 
 }
