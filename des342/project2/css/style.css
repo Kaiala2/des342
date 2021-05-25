@@ -1,33 +1,65 @@
 
 * {
     box-sizing: border-box;
-    background-color: #272727;
-    
-
-}
-
-body { 
-    margin: 0;
-    background: url(/images/texture2.jpg);
-    background-size: cover;
 }
 
 /* Enter your Styles below! */
-.gazelle {
-    font-size: 100pt;
+body {
+    background-color: #272727;
+}
+body.cover {
+    background: url(/des342/project2/images/texture1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+  }
+.header {
     text-align: center;
-    padding-top: 350px;
+}
+.gazelle {
+    position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 50%;
+    font-size: 150pt;
+    text-align: center;
     color: white;
+    -webkit-text-stroke: 1px black;
 }
 .sepatu {
-    font-size: 20pt;
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 75%;
+    font-size: 30pt;
     text-align: center;
     color: white;
+    
+}
+.bounce {
+    position: relative;
+    display: inline-block;
+    padding-left: 250pt;
+    margin-top: -80px;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
 }
 
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }
 
 
 /* Media Queries for you! */
+
 @media only screen and (min-width:768px) {
 
 }
