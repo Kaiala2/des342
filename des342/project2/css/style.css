@@ -129,8 +129,13 @@ a:hover{
     padding: 10px;
   }
 .pics2 img {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
     width: 100%;
     padding: 20px;
+    margin-top: -120px;
 }
 .secondary img {
     width: 40%;
@@ -144,7 +149,14 @@ a:hover{
 .shoes22 img{
     float: right;
 }
-
+.oval{
+    filter: blur(10px);
+    margin: auto;
+    height: 50px;
+    width: 700px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
 .box{
     width: 20%;
     margin: auto;
@@ -160,6 +172,22 @@ a:hover{
 .box:hover{
     color: white;
 }
+.buy{
+    width: 20%;
+    margin: auto;
+    padding: 10px;
+}
+.buybutton{
+    border: 1px solid white;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px; 
+}
+.buy:hover{
+    text-decoration: underline; 
+}
+
 .details{
     width: 610px;
     margin: auto;
@@ -180,6 +208,9 @@ a:hover{
     text-align: center;
     font-size: 30px; 
 }
+.specs-box:hover{
+    text-decoration: underline;
+}
 .sizes-box{
     float: right;
     width: 300px;
@@ -188,6 +219,9 @@ a:hover{
     font-weight: bold;
     text-align: center;
     font-size: 30px; 
+}
+.sizes-box:hover{
+    text-decoration: underline;
 }
 .grid{
     width: 640px;
@@ -203,8 +237,40 @@ a:hover{
     flex: 1;
     flex-wrap: nowrap;
     border: 1px solid white;
-    margin: 30px;
+    margin: 40px;
     height: 50px;
+}
+.black {
+    background-color: black;
+}
+.black:hover{
+    outline-style: double;
+}
+.bw div{
+   clip-path: polygon(100% 0, 0 0, 100% 100%);
+   background-color: white; 
+   margin: 0 auto;
+}
+.bw:hover{
+    outline-style: double;
+}
+.blue {
+    background-color: #1bade7;
+}
+.blue:hover{
+    outline-style: double;
+}
+.tan {
+    background-color: #eccc90;
+}
+.tan:hover{
+    outline-style: double;
+}
+.pink {
+    background-color: #fdb0e3;
+}
+.pink:hover{
+    outline-style: double;
 }
 .pics .shoes1 {
     width: 100%;
@@ -212,7 +278,72 @@ a:hover{
 .pics .shoes2 {
     width: 100%;
 }
-
+.boxes{
+    font-family: Helvetica, sans-serif;
+    width: 610px;
+    margin: auto;
+    padding: 5px;
+}
+.name-box div{
+    width: 600px;
+    height: 50px;
+    border: 1px solid white;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px; 
+}
+.email-box div{
+    width: 600px;
+    height: 50px;
+    border: 1px solid white;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px; 
+}
+.subject-box div{
+    width: 600px;
+    height: 50px;
+    border: 1px solid white;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px; 
+}
+.message-box div{
+    width: 600px;
+    height: 200px;
+    border: 1px solid white;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px; 
+}
+.bwsecondary img {
+    filter: grayscale(1);
+    width: 20%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.bwshoes22 img{
+    float: left; 
+}
+.bwshoes33 img{
+    float: right;
+}
+.boxx{
+    width: 20%;
+    margin: auto;
+    padding: 10px;
+}
+.boxx-shop{
+    border: 1px solid white;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px; 
+}
+.boxx:hover{
+    text-decoration: underline; 
+}
 /* Media Queries for you! */
 @media only screen and (min-width:768px) {
 
