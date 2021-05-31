@@ -6,10 +6,18 @@
 /* Enter your Styles below! */
 body {
     background-color: #272727;
-    background: url(/des342/project2/images/texture1.jpg) no-repeat center center fixed;
+    background: url(../images/texture1.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
+    color: white;
   }
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+    text-decoration: underline; 
+}
 .header {
     text-align: center;
 }
@@ -54,21 +62,30 @@ body {
     from { transform: translate(0,  0px); }
     65%  { transform: translate(0, 15px); }
     to   { transform: translate(0, -0px); }
-
-navbar {
+}
+.navbar {
     color: white;
     text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
     margin: 0 auto;
-    border-style: solid;
-    border-width: thin; 
     font-weight: lighter;
     font-family: Supply, Helvetica;
-    font-style: normal;
-       
+    font-style: normal;  
     }
-
+.head{
+    padding-top: 40px;
+    margin: auto;
+    text-align: center;
+    font-size: 130px;
+    -webkit-text-stroke: 1px black;
+}
+.red{
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+}
 .home h2{
     font-size: 15pt;
 }
@@ -85,7 +102,6 @@ navbar {
     padding: 5px;
     width: 160px;
 }
-    
 .contact h2 {
     font-size: 15pt;
 }
@@ -96,11 +112,105 @@ navbar {
 }
 
 .pics {
-    width: 100%;
-    flex: 25%;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
   }
+.pics img {
+    width: 100%;
+    padding: 20px;
+}
+.padded-img{
+    padding: 20px;
+}
+.shoes11 {
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+  }
+.pics2 img {
+    width: 100%;
+    padding: 20px;
+}
+.secondary img {
+    width: 40%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.shoes22 img{
+    float: left; 
+}
+.shoes22 img{
+    float: right;
+}
+
+.box{
+    width: 20%;
+    margin: auto;
+    padding: 5px;
+}
+.box-shop{
+    border: 1px solid white;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px; 
+}
+.box:hover{
+    color: white;
+}
+.details{
+    width: 610px;
+    margin: auto;
+    padding: 5px;
+}
+.details-box{
+    border: 1px solid white;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px; 
+}
+.specs-box{
+    float: left;
+    width: 300px;
+    border: 1px solid white;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px; 
+}
+.sizes-box{
+    float: right;
+    width: 300px;
+    border: 1px solid white;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px; 
+}
+.grid{
+    width: 640px;
+    margin: auto;
+    padding: 20px;
+}
+.color-grid{
+    display: flex;
+    border: 1px solid white;
+}
+.color-grid div {
+    width: 40px;
+    flex: 1;
+    flex-wrap: nowrap;
+    border: 1px solid white;
+    margin: 30px;
+    height: 50px;
+}
 .pics .shoes1 {
-    padding-left: 600px;
+    width: 100%;
+}
+.pics .shoes2 {
+    width: 100%;
 }
 
 /* Media Queries for you! */
